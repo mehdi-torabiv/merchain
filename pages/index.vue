@@ -1,11 +1,18 @@
 <template>
-  <h1>
-    weather app
-  </h1>
+  <b-container>
+    <b-row>
+      <b-col cols="5">
+        <weather-card />
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
+import WeatherCard from '~/components/pages/weather/index.vue'
 export default {
-
+  components: {
+    WeatherCard
+  }
 }
 </script>
