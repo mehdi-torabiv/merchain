@@ -1,7 +1,7 @@
 <template>
   <b-container>
     <b-row>
-      <b-col cols="5">
+      <b-col cols="5" class="mx-auto">
         <weather-card />
       </b-col>
     </b-row>
